@@ -112,6 +112,11 @@ console.log(addTwo(20));
 console.log(addTwo(addNine(10)));
 
 
+/**
+ * Closures can be used to secure data
+ * Config, wheels, and doors are all private
+ */
+
 var truck = function(config){
   var wheels = 4;
   var doors = 2;
@@ -131,6 +136,3 @@ var truck = function(config){
 };
 
 truck();
-
-
-///
